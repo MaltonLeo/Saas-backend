@@ -55,6 +55,15 @@ MIDDLEWARE = [
     'corsheaders.middleware.CorsMiddleware',
 ]
 
+
+# settings.py (quyidagi joyga qo‘shing)
+REST_FRAMEWORK = {
+    'DEFAULT_AUTHENTICATION_CLASSES': (
+        'rest_framework_simplejwt.authentication.JWTAuthentication',
+    )
+}
+
+
 ROOT_URLCONF = 'config.urls'
 
 TEMPLATES = [
