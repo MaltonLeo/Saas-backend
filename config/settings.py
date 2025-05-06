@@ -127,6 +127,7 @@ USE_TZ = True
 
 CORS_ALLOWED_ORIGINS = [
     "https://magnificent-fox-b96890.netlify.app",  # Netlify frontend URL
+    "http://localhost:3000", #local uchun
 ]
 
 CORS_ALLOW_CREDENTIALS = True
